@@ -74,13 +74,18 @@
 	height: 1000px;
 	margin-left: 30px; }
 
+
+.trait{
+	height: 2px;
+	width: 70px;
+	margin-top: -25px;
+	background-color: #CF872F;}
+
 /*-----------en-tête-----------*/
 
 #haut{
 	width: 400px;
 	font-size: 25px;
-	line-height: 10px;
-	border-bottom: solid 1px #CF872F;
 	}
 
 #color{
@@ -100,6 +105,11 @@
 	top: 100px;
 	width: 670px;
 	height: 700px;}
+
+	.trait2{
+		
+	}
+
 
 #conteneur31 h2 i{
 	margin-right: 20px;
