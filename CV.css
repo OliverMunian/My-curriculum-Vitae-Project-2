@@ -1,6 +1,5 @@
 body{
-	margin-top: 0px;
-	margin-left: 0px;
+	margin:0px;
 }
 
 
@@ -36,6 +35,7 @@ body{
 			color: white;}
 
 		#image{
+			box-sizing: border-box;
 			width: 100%;
 			text-align: center;
 			padding: 10px;}
@@ -50,19 +50,19 @@ body{
 
 			#aproposdemoi{
 				width: 300px;
-				height: 49%;
-				margin-left: 35px;
+				height: 48%;
+				box-sizing: border-box;
+				padding-left: 35px;
 				margin-right: 35px;
 				text-align: justify;
 				font-size: 1.2em;}
 
 			.pictogramme{
-				margin-left: 80px;
 				display: flex;
 				justify-content: space-around;
+				align-items: center;
 				font-size: 50px;
-				width: 220px;
-				display: flex-start;}
+				width: 100%;}
 
 				#swim{
 					border-radius: 100%;
@@ -75,12 +75,15 @@ body{
 					border: 2px solid black;}
 
 
+#section{
+	width: 100%
+}
 /*-----------conteneurB-----------*/
 
 			/*-----------en-tête-----------*/
 
 				#haut{
-				width: 400px;
+				width: 100%;
 				font-size: 25px;}
 
 				#color{
@@ -268,46 +271,62 @@ body{
 		font-size: 12px;}
 
 	.trait2, .trait3, .trait4{
-		width:380px;}
+		width:100%;}
 
 /*----conteneur A----*/
 
 	#conteneurA{
 		flex-direction: column;
-		width: auto;}
+		width: 100%;}
 
 	#conteneurA_a{
-		height: 1035px;}
+		width: 100%;
+		height: 1040px;}
 
 		#aproposdemoi{
-				width: 300px;
-				height: 29%;}
+			box-sizing: border-box;
+    		padding-left: 35px;
+    		padding-right: 35px;
+			width: 100%;
+			height: 29%;}
+
+		.pictogramme{
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				font-size: 50px;
+				width: 100%;}
 
 
 /*----conteneur B----*/
 
 	#conteneurB{
+		width: 100%;
 		margin-left: 0px;}
 
 
 /*---conteneurC---*/
 
+#conteneurC{
+	width: 100%;
+}
+
 	.conteneurC_b{
 		position: relative;
     	top: 30px;
-    	height: 362px;
-    	width: 420px;}
+    	height: 392px;
+    	width: 100%;}
 
 
 		.init1{
-			width: 133%;
+			width: 100%;
     		height: 24%;
     		display: flex;
     		flex-direction: column;
    			justify-content: space-between;}
 
 		.init2{
-			width: 38%;
+			width: 60%;
 			margin-left: 10px;
 			display: flex;}
 
@@ -316,34 +335,32 @@ body{
 			flex-direction: column;
 			margin-left: 53px;
 			height: 90%;
-			width: 52%;}
+			width: 60%;}
 
 /*---conteneurD---*/
 
 	#conteneurD{
 		position: relative;
-    	width: 110%;
+    	width: 100%;
     	top: 10px;}
 
 	#conteneurD_a{
+		width: 100%;
 		position: relative;
 		top:45px;}
-	
-	#conteneurD_b td{
-		font-size: 10px;}
 
 	#conteneurD_b{
-		width: 400px;
-		height: 520px;
+		width: 100%;
+		height: 580px;
 		position: relative;
-		top: 35px;}
+		top: 55px;}
 
 /*---conteneurE_b---*/
 	#conteneurE{
 		display: flex;
 		flex-direction: column;
 		position: relative;
-		top:75px;}
+		top: 180px;}
 
 	#conteneurE_a{
 		position: relative;
@@ -353,6 +370,7 @@ body{
 		display: flex;
     	flex-direction: column;
     	justify-content: space-between;
+    	margin-left: 0px;
     	top: -45px;
-    	width: 415px;
+    	width: 100%;
     	height: 160px;}
