@@ -335,6 +335,7 @@ body{
 		.init3{
 			display: flex;
 			flex-direction: column;
+			padding-top: 4px;
 			margin-left: 53px;
 			height: 75%;
 			width: 60%;}
