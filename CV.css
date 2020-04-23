@@ -17,7 +17,7 @@ body{
 #conteneurA_a{
 	background-color: #CF872F;
 	width: 380px;
-	height: 1430px;}
+	height: 1520px;}
 
 
 
@@ -41,6 +41,7 @@ body{
 			padding: 10px;}
 
 		#image img{
+			border: 4px solid #A47337;
 			border-radius: 50%;
 		}
 
@@ -95,9 +96,9 @@ body{
 
 #conteneurB{
 	font-size: 14px;
-	width: 670px;
+	width: 100%;
 	height: 1400px;
-	margin-left: 30px; }
+	margin-left: 50px; }
 
 
 .trait1{
@@ -112,7 +113,7 @@ body{
 	font-size: 14px;
 	position: relative;
 	top: 90px;
-	width: 110%;
+	width: 100%;
 	height: 35%;}
 
 	.trait2{
@@ -122,36 +123,36 @@ body{
 
 
 	#conteneurC_a h2 i{
+		font-size: 20px;
 		margin-right: 20px;}
 
 	#conteneurC_a i{
 		color: #CF872F;}
 
 	.conteneurC_b{
-		width: 700px;
+		width: 95%;
     	height: 325px;
     	position: relative;
-    	top: 10px;
+    	top: 30px;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;}
+		justify-content: space-between;}
 
 		.init1{
-			width: 90%;
+			width: 100%;
 			display: flex;
 			align-items: flex-start;
-			justify-content: space-around;}
+			justify-content: space-between;}
 
 		.init2{
 			width: 33%;
-			margin-left: 10px;
 			display: flex;}
 
 		.init3{
 			display: flex;
 			flex-direction: column;
 			height: 90%;
-			width: 27%;}
+			width: 53%;}
 
 	#puceout1{
 		margin-left: 20px;}
@@ -173,7 +174,7 @@ body{
 
 #conteneurD{
 	position: relative;
-	width: 110%;
+	width: 100%;
 	top: 25px;}
 
 	#conteneurD_a{
@@ -194,10 +195,10 @@ body{
     background-color: #CF872F;}
 
 	#conteneurD_b{
-	width: 735px;
+	width: 96%;
     height: 430px;
     position: relative;
-    top: 25px;
+    top: 45px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;}
@@ -283,7 +284,7 @@ body{
 
 	#conteneurA_a{
 		width: 100%;
-		height: 1040px;}
+		height: 1065px;}
 
 		#aproposdemoi{
 			box-sizing: border-box;
@@ -377,4 +378,22 @@ body{
     	top: -45px;
     	width: 100%;
     	height: 160px;}
+}
+
+@media all (min-width: 980px) and (max-width: 1024px)
+{
+	}
+#conteneurA_a {
+    background-color: #CF872F;
+    width: 380px;
+    height: 1573px;}
+
+
+	#conteneurB {
+    position: relative;
+    top: 85px;
+    font-size: 14px;
+    width: 100%;
+    height: 1400px;
+    margin-left: 50px;}
 }
