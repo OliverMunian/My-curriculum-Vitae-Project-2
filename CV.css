@@ -98,8 +98,8 @@ body{
 	font-size: 14px;
 	width: 100%;
 	height: 1400px;
-	margin-left:50px;}
-	
+	margin-left: 50px; }
+
 
 .trait1{
 	height: 2px;
@@ -175,7 +175,7 @@ body{
 #conteneurD{
 	position: relative;
 	width: 100%;
-	top: 25px;}
+	top: 45px;}
 
 	#conteneurD_a{
 	position: relative;
@@ -209,6 +209,15 @@ body{
 	height: 100%;
 	background-color: #CF872F;}
 
+.puceout1{
+	position: relative;
+    top: 2px;
+    margin-right: 25px;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    border-radius: 50%;}
+
 .puceout {
 	position: relative;
     top: 2px;
@@ -225,7 +234,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	top: 100px;}
+	top: 150px;}
 
 	#conteneurE_a h2 i{
 		font-size: 20px;
@@ -284,14 +293,14 @@ body{
 
 	#conteneurA_a{
 		width: 100%;
-		height: 1085px;}
+		height: 1065px;}
 
 		#aproposdemoi{
 			box-sizing: border-box;
     		padding-left: 35px;
     		padding-right: 35px;
 			width: 100%;
-			height: 26%;}
+			height: 23%;}
 
 		.pictogramme{
 				display: flex;
@@ -339,7 +348,7 @@ body{
 			padding-top: 4px;
 			margin-left: 53px;
 			height: 75%;
-			width: 60%;}
+			width: 83%;}
 
 /*---conteneurD---*/
 
@@ -368,19 +377,19 @@ body{
 
 	#conteneurE_a{
 		position: relative;
-		top:-60px;}
+		top:-95px;}
 
 	#conteneurE_b{
 		display: flex;
     	flex-direction: column;
     	justify-content: space-between;
     	margin-left: 0px;
-    	top: -45px;
+    	top: -75px;
     	width: 100%;
     	height: 160px;}
 }
 
-@media all and (min-width: 720px)
+@media all and (max-width: 720px)
 {
 #conteneurA_a {
     background-color: #CF872F;
