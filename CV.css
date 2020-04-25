@@ -131,7 +131,7 @@ body{
 
 	.conteneurC_b{
 		width: 95%;
-    	height: 325px;
+    	height: 345px;
     	position: relative;
     	top: 30px;
 		display: flex;
@@ -149,6 +149,7 @@ body{
 			display: flex;}
 
 		.init3{
+			line-height: 15px;
 			display: flex;
 			flex-direction: column;
 			height: 90%;
@@ -372,6 +373,7 @@ body{
 			display: flex;}
 
 		.init3{
+			line-height: 15px;
 			position: relative;
 			top: -7px;
 			display: flex;
